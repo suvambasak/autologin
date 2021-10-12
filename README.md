@@ -2,17 +2,23 @@
 
 ## Setup
 
-### Install dependencies
-Install `chromium-chromedriver`, `xvfb`
+### Clone
 ```bash
-$ sudo apt install chromium-chromedriver xvfb
+$ git clone https://github.com/suvambasak/autologin.git
+$ cd autologin/
+```
+
+### Install dependencies
+For first time only
+```bash
+$ sh dependencies.sh 
 ```
 
 ### Execution
 ```bash
-$ git clone https://github.com/suvambasak/autologin.git
-$ cd autologin/
 $ source .venv/bin/activate
+$ pip install -r requirements.txt 
 $ python3 autologin.py
+
 $ deactivate
 ```
