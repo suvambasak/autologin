@@ -4,21 +4,28 @@
 
 ### Clone
 ```bash
-$ git clone https://github.com/suvambasak/autologin.git
-$ cd autologin/
+git clone https://github.com/suvambasak/autologin.git
+```
+```bash
+cd autologin/
 ```
 
 ### Install dependencies
 For first time only
 ```bash
-$ sh dependencies.sh 
+sh dependencies.sh 
 ```
 
 ### Execution
 ```bash
-$ source .venv/bin/activate
-$ pip install -r requirements.txt 
-$ python3 autologin.py
-
-$ deactivate
+source .venv/bin/activate
+```
+```bash
+pip install -r requirements.txt 
+```
+```bash
+python3 autologin.py
+```
+```bash
+deactivate
 ```
